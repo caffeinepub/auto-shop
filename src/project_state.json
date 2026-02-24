@@ -1,0 +1,67 @@
+{
+  "schemaVersion": "1.0.0",
+  "projectStateVersion": 3,
+  "summary": "Car shop app with loading screen, photo gallery of cars and engines, and purchase information with pricing",
+  "architectural_notes": [],
+  "known_issues": [],
+  "isFixRequest": false,
+  "imageRequirements": "## Required Images\n- Luxury sports car front view in showroom lighting, professional automotive photography style (car-1.dim_800x600.png)\n- High-performance engine bay detail shot with chrome and metal components visible (engine-1.dim_800x600.png)\n- Modern sedan side profile on clean white background (car-2.dim_800x600.png)\n- V8 engine close-up showing mechanical details and polish (engine-2.dim_800x600.png)\n- Classic muscle car three-quarter view in dramatic lighting (car-3.dim_800x600.png)\n- Turbo engine cutaway showing internal components (engine-3.dim_800x600.png)",
+  "existing_features": [
+    {
+      "id": "feature-display-a-loading-screen-when-the-app-first-launches-before-showing-the-main-content",
+      "title": "Display a loading screen when the app first launches before showing the main content",
+      "reqIds": [
+        "REQ-1"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-create-a-photo-gallery-displaying-images-of-cars-and-car-engines-on-the-main-screen",
+      "title": "Create a photo gallery displaying images of cars and car engines on the main screen",
+      "reqIds": [
+        "REQ-2"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-display-purchase-information-with-buy-text-and-price-below-each-car-photo-in-the-gallery",
+      "title": "Display purchase information with 'Buy' text and price below each car photo in the gallery",
+      "reqIds": [
+        "REQ-3"
+      ],
+      "version": 1
+    },
+    {
+      "id": "feature-apply-a-cohesive-automotive-showroom-design-theme-with-premium-styling-clean-layout-and-professional-presentation-suitable-for-a-car-dealership",
+      "title": "Apply a cohesive automotive showroom design theme with premium styling, clean layout, and professional presentation suitable for a car dealership",
+      "reqIds": [
+        "REQ-4"
+      ],
+      "version": 1
+    }
+  ],
+  "new_feature_requests": [
+    {
+      "id": "AR-1",
+      "summary": "Loading screen on app entry",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-2",
+      "summary": "Photo gallery displaying cars and car engines",
+      "reqIds": [],
+      "status": "pending"
+    },
+    {
+      "id": "AR-3",
+      "summary": "Display purchase option with pricing below photos",
+      "reqIds": [],
+      "status": "pending"
+    }
+  ],
+  "gameProjectType": "none",
+  "projectName": "Auto Shop",
+  "clarification_mode": "instant",
+  "clarification_rounds": 0
+}

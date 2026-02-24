@@ -1,0 +1,18 @@
+{
+  "backend/main.mo": "Main backend actor that includes the MixinStorage module from blob-storage, providing blob storage functionality.",
+  "feature_evidence.json": "Feature evidence report documenting four implemented features: loading screen, photo gallery, purchase information display, and automotive showroom design theme with associated files and test IDs.",
+  "frontend-file-summaries.txt": "JSON-formatted summaries of frontend files describing the loading screen, car gallery, card components, styling, and configuration.",
+  "frontend/index.css": "Tailwind CSS configuration with custom CSS variables defining an automotive-themed color palette using OKLCH colors for light and dark modes.",
+  "frontend/index.html": "HTML entry point for the React application with title 'Auto Shop' and root div mounting point.",
+  "frontend/src/App.tsx": "Root React component that displays LoadingScreen for 2.5 seconds on mount, then transitions to CarGallery.",
+  "frontend/src/components/CarCard.tsx": "Reusable card component displaying individual car or engine items with image, badge, description, price, and action buttons (Buy Now and Details).",
+  "frontend/src/components/CarGallery.tsx": "Main gallery component with header, filter buttons (All/Cars/Engines), grid of CarCard components displaying 6 hardcoded inventory items, and footer with attribution.",
+  "frontend/src/components/LoadingScreen.tsx": "Full-screen loading component with 'AUTO SHOP' branding, animated spinner, and decorative gradient background elements.",
+  "frontend/src/hooks/useActor.ts": "React Query hook that creates and manages the backend actor instance based on Internet Identity authentication state, invalidating dependent queries on identity changes.",
+  "frontend/src/hooks/useInternetIdentity.ts": "React context provider and hook for Internet Identity authentication, managing login/logout state, identity persistence, and AuthClient configuration.",
+  "frontend/src/hooks/useQueries.ts": "Minimal placeholder file for backend queries with a single useBackendHealth hook that checks actor readiness; notes that data is currently managed client-side.",
+  "frontend/src/index.css": "Tailwind CSS configuration with custom CSS variables defining a premium automotive color palette for both light and dark modes, including metallic charcoal, silver, and chrome accent colors.",
+  "frontend/src/main.tsx": "Application entry point that renders the React app with QueryClient and InternetIdentityProvider wrappers for state management and authentication.",
+  "frontend/tailwind.config.js": "Tailwind configuration extending the default theme with custom colors mapped to CSS variables, Inter font family, custom border radius, premium shadows, and animation keyframes for accordion and sidebar components.",
+  "project_state.json": "Project metadata tracking the Auto Shop app's features including loading screen, car/engine photo gallery, purchase information display, and automotive showroom design theme with required image specifications."
+}

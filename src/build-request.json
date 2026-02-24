@@ -1,0 +1,100 @@
+{
+  "kind": "build_request",
+  "title": "Create car shop app with loading screen and product gallery",
+  "projectName": "Auto Shop",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Display a loading screen when the app first launches before showing the main content",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "first enter phase a loading screen is showing"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Loading screen appears immediately on app launch",
+        "Loading screen transitions to main content after a brief delay",
+        "Loading animation or indicator is visible during the loading phase"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Create a photo gallery displaying images of cars and car engines on the main screen",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "second screen my photos of car and engine of cars"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Gallery displays multiple car photos",
+        "Gallery displays car engine photos",
+        "Images are clearly visible and properly formatted",
+        "Gallery layout is organized and easy to navigate"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Display purchase information with 'Buy' text and price below each car photo in the gallery",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "in down side write like buy the and the price"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Each car listing shows 'Buy' text below the photo",
+        "Price is displayed below each car photo",
+        "Purchase information is clearly readable and positioned at the bottom of each item"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Apply a cohesive automotive showroom design theme with premium styling, clean layout, and professional presentation suitable for a car dealership",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Visual theme reflects automotive industry aesthetics",
+        "Typography and colors create a premium, professional appearance",
+        "Layout emphasizes product photography and clear pricing information",
+        "Design remains consistent across loading screen and gallery views"
+      ]
+    }
+  ],
+  "constraints": [
+    "Use only React, Tailwind CSS, and Shadcn components for the frontend",
+    "Do not modify immutable paths including useInternetIdentity hooks and ui components"
+  ],
+  "nonGoals": [
+    "Implementing actual payment processing",
+    "User authentication or account management",
+    "Shopping cart functionality",
+    "Backend inventory management system"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Luxury sports car front view in showroom lighting, professional automotive photography style (car-1.dim_800x600.png)",
+      "High-performance engine bay detail shot with chrome and metal components visible (engine-1.dim_800x600.png)",
+      "Modern sedan side profile on clean white background (car-2.dim_800x600.png)",
+      "V8 engine close-up showing mechanical details and polish (engine-2.dim_800x600.png)",
+      "Classic muscle car three-quarter view in dramatic lighting (car-3.dim_800x600.png)",
+      "Turbo engine cutaway showing internal components (engine-3.dim_800x600.png)"
+    ],
+    "edits": []
+  }
+}

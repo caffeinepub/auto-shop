@@ -1,0 +1,88 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-display-a-loading-screen-when-the-app-first-launches-before-showing-the-main-content",
+      "featureTitle": "Display a loading screen when the app first launches before showing the main content",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/LoadingScreen.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-create-a-photo-gallery-displaying-images-of-cars-and-car-engines-on-the-main-screen",
+      "featureTitle": "Create a photo gallery displaying images of cars and car engines on the main screen",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/CarGallery.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-display-purchase-information-with-buy-text-and-price-below-each-car-photo-in-the-gallery",
+      "featureTitle": "Display purchase information with 'Buy' text and price below each car photo in the gallery",
+      "files": [
+        "frontend/src/components/CarCard.tsx",
+        "frontend/src/components/CarGallery.tsx"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-apply-a-cohesive-automotive-showroom-design-theme-with-premium-styling-clean-layout-and-professional-presentation-suitable-for-a-car-dealership",
+      "featureTitle": "Apply a cohesive automotive showroom design theme with premium styling, clean layout, and professional presentation suitable for a car dealership",
+      "files": [
+        "frontend/src/components/CarCard.tsx",
+        "frontend/src/components/CarGallery.tsx",
+        "frontend/src/components/LoadingScreen.tsx",
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "blob-storage@4.0.0",
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

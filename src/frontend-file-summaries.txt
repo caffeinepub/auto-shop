@@ -1,0 +1,9 @@
+{
+  "frontend/src/App.tsx": "Main application component that manages loading state and conditionally renders LoadingScreen or CarGallery after a 2.5 second delay.",
+  "frontend/src/components/LoadingScreen.tsx": "Full-screen loading component with animated spinner, automotive branding, and decorative gradient elements.",
+  "frontend/src/components/CarGallery.tsx": "Main gallery view displaying car and engine inventory in a responsive grid with filtering options, header, and footer with attribution.",
+  "frontend/src/components/CarCard.tsx": "Individual product card component displaying car/engine image, details, pricing, and action buttons with hover effects.",
+  "frontend/src/index.css": "Global styles with premium automotive color palette using OKLCH colors featuring metallic charcoal, silver, and chrome tones for both light and dark modes.",
+  "frontend/tailwind.config.js": "Tailwind configuration extended with automotive showroom theme including Inter font family, custom shadows, and premium design tokens.",
+  "frontend/src/hooks/useQueries.ts": "Minimal React Query hooks file with placeholder for future backend integration."
+}
